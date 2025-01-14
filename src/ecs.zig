@@ -17,3 +17,6 @@ pub const utils = @import("ecs/utils.zig");
 // signals
 pub const Signal = @import("signals/signal.zig").Signal;
 pub const Dispatcher = @import("signals/dispatcher.zig").Dispatcher;
+
+// resources
+pub const Assets = @import("resources/assets.zig").Assets;
